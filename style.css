@@ -1,0 +1,106 @@
+/* Esto es un comentario en CSS
+SELECTOR {
+    PROPIEDAD : 1233131
+    PROPIEDAD: "23e23px"
+}
+bgcolor="lightblue"
+*/
+
+* {
+    font-size: x-large;
+    /*font-size: 2rem;*/
+    /*font-family: fantasy; /* En mi caso tengo esta font y la uso*/
+}
+
+/* Toda la pagina siempre debe tener fondo negro */
+body {
+    background-color:black;
+}
+
+footer {
+    background-color:mediumorchid !important;
+    color: white;
+    font-family: 'Klee One', cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    border-color: chartreuse;
+    border-style:dotted;
+    border-width: 10px;
+    /*background-color: black !important; Importante recordar que esto 
+    puede alterar elementos no deseados*/
+}
+
+a:hover {
+    background-color: white;
+}
+
+#iniciar {
+    color: white;
+}
+
+.whitebg {
+    background-color: white;
+    color: black;
+}
+
+body > table > tbody > tr {
+    background-color: black;
+    color: white;
+}
+
+/*body > table > tbody > tr > td:nth-child(2) > section > p {
+    background-color: black;
+    color: white;
+}*/
+
+ul, h2 {
+    color: white;
+}
+
+.fa-cloud {
+    color: red;
+}
+
+body > header > i.fas.fa-car {
+    scale: 120;
+}
+
+/***************************************************/
+/*   Estilo del componente boton - fondo blanco   */
+/***************************************************/
+
+.contenedor{
+   
+    align-content: center;
+    justify-content: center;
+    display:grid;
+    height: 300px;
+    padding: 0;
+    }
+.btn{
+    border: 3px; solid ; rgba(100,100,100,0,3)
+    margin-bottom:20px;
+    padding: 20px;
+    width: 150%;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+    text-shadow: 0.1px 0.1px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #000;
+    background-size: 300%;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: rgb(181, 168, 240);
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(247, 241, 241, 0.24),0 1px 1px 0 rgba(206, 200, 200, 0.19);
+
+}
